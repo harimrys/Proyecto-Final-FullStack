@@ -1,37 +1,27 @@
-# Proyecto Final
+# ProyectoFinalSamsung
 
-Gestión de los socios de un gimnasio
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
-Se propone generar un formulario con Angular que permita crear, editar, modificar y borrar un listado de los socios de un gimnasio. 
+## Development server
 
-Qué se pide
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Para la realización de esta práctica se deben tener en cuenta los siguientes aspectos:
+## Code scaffolding
 
-1. Se creará una clase “socio” con los siguientes campos:
-- Nombre
-- Apellidos
-- Socio (entendido como número de socio)
-- DNI
-- Teléfono
-- Sexo (masculino, femenino).
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-2. Se ha de poder dar de alta nuevos socios y visualizarlas en una lista.
+## Build
 
-3. No podrá haber dos socios con el mismo número asigando. Es decir, el número de socio debe ser único.
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-4. Todos los registros han de poder modificarse.
+## Running unit tests
 
-5. Todos los registros han de poder borrarse.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-6. Se ha de utilizar angular-material.
+## Running end-to-end tests
 
-7. Se comprobará que el DNI tenga 9 caracteres.
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-8. Se comprobará que el Nombre, Apellidos tengan al menos 3 caracteres.
+## Further help
 
-9. El sexo ha de seleccionarse entre los valores (masculino, femenino).
-
-Qué se entrega:
-
-Se deberá entregar el fichero (o ficheros) utilizado para construir el registro de clientes.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
